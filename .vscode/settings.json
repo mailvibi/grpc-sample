@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.env.windows": {
+        "PROTOC": "D:\\Hobbies\\grpc-sample\\protoc\\bin\\protoc.exe"
+    }
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+package info;
+
+service info {
+    rpc GetI(LInfo) returns (RInfo);
+}
+
+message LInfo {
+    string i1 = 1;
+}
+
+message RInfo {
+    string r1 = 1;
+}
